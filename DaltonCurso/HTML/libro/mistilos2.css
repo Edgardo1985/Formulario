@@ -1,0 +1,22 @@
+*{
+     margin: 5px;
+ }
+
+ p:nth-child(odd)
+ {
+ background: red;
+ }
+ div > p.mitexto:nth-child(even)
+ {
+    color : blue;
+    background: yellow;
+ }
+
+ p.mitexto3 + p 
+ {
+   background: green;
+ }
+ p.mitexto1 ~ p 
+ {
+   font-size: 40px; 
+ }
