@@ -1,0 +1,174 @@
+body
+{
+    background-color: var(--colorfondo);
+    margin:0;
+}
+:root
+{
+    --colorfondo: #000;
+    --colorsecund: #78866b;
+    --colorBoton: #fff;
+    ---colorDeTexto: #000;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: var(---colorDeTexto);
+    background-color: var(--colorBoton);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+.boton--blanco {
+    background-color: #fff;
+    color: #000;
+}
+.boton--diferente {
+    background-color: var(--colorfondo);
+    color: #fff;
+}
+li{
+    padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.h1 {
+    grid-column: 2 / 3;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.resp
+{
+    text-align: center;
+    background-color: var(--colorsecund);
+    padding: 1%;
+    margin:0;
+}
+.card
+{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+}
+
+
+
+
+.cards
+{
+    width: 300px;
+    background: var(--colorBoton);
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgb(143, 131, 131);
+    overflow: hidden ;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.nav 
+{
+    background-color: #78866b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+button 
+{
+    border: none;
+    border-radius: 4px;
+}
+.ImgPrincipal
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    ;
+}
+.Principal
+{
+    background-color: black;
+    margin: 0;
+
+}
+.TituloIndex
+{
+    text-align: center;
+    color: rgb(245, 243, 243);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.div {
+    display: flex;
+    margin: 10px 0;
+}
+.div-elemeto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.div-elemeto2 {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+.box1, .box2 {
+    width: 100vw;
+    height: 50vh;
+}
+.box1 {
+    background-color: var(--colorsecund);
+}
+
+footer {
+    text-align: center;
+    color: var(--colorBoton);
+    padding: 40px;
+}
